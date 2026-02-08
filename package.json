@@ -1,0 +1,24 @@
+{
+  "name": "fastcoffee-kiosk",
+  "version": "0.1.0",
+  "description": "FastCoffee tablet kiosk PWA - interactive menu system",
+  "private": true,
+  "workspaces": [
+    "apps/kiosk",
+    "packages/ui"
+  ],
+  "scripts": {
+    "dev": "turbo dev",
+    "build": "turbo build",
+    "preview": "turbo preview",
+    "lint": "turbo lint",
+    "type-check": "turbo type-check"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
+    "eslint": "^8.0.0",
+    "turbo": "^1.10.0",
+    "typescript": "^5.0.0"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "app_name": "Kiosque FastCoffee",
+  "home": "Accueil",
+  "categories": "Menu",
+  "products": "Produits",
+  "product_detail": "Détails du Produit",
+  "back": "Retour",
+  "refresh": "Rafraîchir",
+  "no_network": "Pas de connexion Internet - mode hors ligne",
+  "loading": "Chargement...",
+  "error": "Erreur lors du chargement du menu",
+  "coffee": "Café",
+  "pastries": "Pâtisseries",
+  "drinks": "Boissons",
+  "snacks": "Collations",
+  "price": "Prix",
+  "add_to_cart": "Ajouter au Panier",
+  "welcome": "Bienvenue chez FastCoffee"
+}

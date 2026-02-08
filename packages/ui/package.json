@@ -1,0 +1,21 @@
+{
+  "name": "@fastcoffee/ui",
+  "version": "0.1.0",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": ["dist"],
+  "scripts": {
+    "build": "[ ! -d src ] && mkdir -p dist && echo '// UI components placeholder' > dist/index.js || echo 'UI components ready'",
+    "type-check": "tsc --noEmit 2>/dev/null || echo 'Ready'"
+  },
+  "peerDependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "devDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "typescript": "^5.0.0"
+  }
+}

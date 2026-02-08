@@ -1,0 +1,19 @@
+{
+  "app_name": "FastCoffee Kiosk",
+  "home": "Home",
+  "categories": "Menu",
+  "products": "Products",
+  "product_detail": "Product Details",
+  "back": "Back",
+  "refresh": "Refresh",
+  "no_network": "No internet connection - offline mode",
+  "loading": "Loading...",
+  "error": "Error loading menu",
+  "coffee": "Coffee",
+  "pastries": "Pastries",
+  "drinks": "Drinks",
+  "snacks": "Snacks",
+  "price": "Price",
+  "add_to_cart": "Add to Cart",
+  "welcome": "Welcome to FastCoffee"
+}
