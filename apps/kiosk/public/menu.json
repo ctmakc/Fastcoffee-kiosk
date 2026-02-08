@@ -1,0 +1,201 @@
+{
+  "location_id": "default",
+  "location_name": "FastCoffee Downtown",
+  "currency": "CAD",
+  "last_updated": "2026-02-08T10:00:00Z",
+  "categories": [
+    {
+      "id": "espresso",
+      "name_en": "Espresso",
+      "name_fr": "Espresso",
+      "icon": "☕",
+      "products": [
+        {
+          "id": "p_esp_single",
+          "name_en": "Single Espresso",
+          "name_fr": "Simple Espresso",
+          "description_en": "1 oz of pure espresso",
+          "description_fr": "1 oz d'espresso pur",
+          "price": 2.75,
+          "available": true
+        },
+        {
+          "id": "p_esp_double",
+          "name_en": "Double Espresso",
+          "name_fr": "Double Espresso",
+          "description_en": "2 oz of rich espresso",
+          "description_fr": "2 oz d'espresso riche",
+          "price": 3.50,
+          "available": true
+        },
+        {
+          "id": "p_esp_americano",
+          "name_en": "Americano",
+          "name_fr": "Américain",
+          "description_en": "Espresso with hot water",
+          "description_fr": "Espresso avec eau chaude",
+          "price": 3.25,
+          "available": true
+        }
+      ]
+    },
+    {
+      "id": "espresso_milk",
+      "name_en": "Espresso with Milk",
+      "name_fr": "Espresso au Lait",
+      "icon": "🥛",
+      "products": [
+        {
+          "id": "p_milk_macchiato",
+          "name_en": "Macchiato",
+          "name_fr": "Macchiato",
+          "description_en": "Espresso with a shot of steamed milk",
+          "description_fr": "Espresso avec un trait de lait cuit à la vapeur",
+          "price": 3.75,
+          "available": true
+        },
+        {
+          "id": "p_milk_latte",
+          "name_en": "Latte",
+          "name_fr": "Café Latte",
+          "description_en": "Espresso with steamed milk and foam",
+          "description_fr": "Espresso avec lait cuit à la vapeur et mousse",
+          "price": 4.50,
+          "available": true
+        },
+        {
+          "id": "p_milk_cappuccino",
+          "name_en": "Cappuccino",
+          "name_fr": "Cappuccino",
+          "description_en": "Equal parts espresso, milk, and foam",
+          "description_fr": "Parties égales d'espresso, de lait et de mousse",
+          "price": 4.75,
+          "available": true
+        },
+        {
+          "id": "p_milk_flatwhite",
+          "name_en": "Flat White",
+          "name_fr": "Flat White",
+          "description_en": "Espresso with silky microfoam milk",
+          "description_fr": "Espresso avec lait micromousseux soyeux",
+          "price": 5.00,
+          "available": true
+        }
+      ]
+    },
+    {
+      "id": "specialty",
+      "name_en": "Specialty Drinks",
+      "name_fr": "Boissons Spéciales",
+      "icon": "✨",
+      "products": [
+        {
+          "id": "p_spec_mocha",
+          "name_en": "Mocha",
+          "name_fr": "Moka",
+          "description_en": "Latte with mocha chocolate",
+          "description_fr": "Latte avec chocolat moka",
+          "price": 5.25,
+          "available": true
+        },
+        {
+          "id": "p_spec_caramel",
+          "name_en": "Caramel Macchiato",
+          "name_fr": "Macchiato au Caramel",
+          "description_en": "Macchiato with caramel drizzle",
+          "description_fr": "Macchiato avec filet de caramel",
+          "price": 5.50,
+          "available": true
+        },
+        {
+          "id": "p_spec_cortado",
+          "name_en": "Cortado",
+          "name_fr": "Cortado",
+          "description_en": "Single espresso with steamed milk",
+          "description_fr": "Simple espresso avec lait cuit à la vapeur",
+          "price": 3.99,
+          "available": true
+        }
+      ]
+    },
+    {
+      "id": "cold",
+      "name_en": "Cold Drinks",
+      "name_fr": "Boissons Froides",
+      "icon": "🧊",
+      "products": [
+        {
+          "id": "p_cold_iced_latte",
+          "name_en": "Iced Latte",
+          "name_fr": "Latte Glacé",
+          "description_en": "Espresso with cold milk and ice",
+          "description_fr": "Espresso avec lait froid et glace",
+          "price": 4.75,
+          "available": true
+        },
+        {
+          "id": "p_cold_iced_cap",
+          "name_en": "Iced Cappuccino",
+          "name_fr": "Cappuccino Glacé",
+          "description_en": "Classic cappuccino over ice",
+          "description_fr": "Cappuccino classique sur glaçon",
+          "price": 5.00,
+          "available": true
+        },
+        {
+          "id": "p_cold_cold_brew",
+          "name_en": "Cold Brew",
+          "name_fr": "Cold Brew",
+          "description_en": "Smooth cold-brewed coffee",
+          "description_fr": "Café infusé à froid lisse",
+          "price": 4.25,
+          "available": true
+        }
+      ]
+    },
+    {
+      "id": "pastries",
+      "name_en": "Pastries & Food",
+      "name_fr": "Pâtisseries & Nourriture",
+      "icon": "🥐",
+      "products": [
+        {
+          "id": "p_food_croissant",
+          "name_en": "Croissant",
+          "name_fr": "Croissant",
+          "description_en": "Buttery French croissant",
+          "description_fr": "Croissant français riche en beurre",
+          "price": 3.99,
+          "available": true
+        },
+        {
+          "id": "p_food_muffin",
+          "name_en": "Blueberry Muffin",
+          "name_fr": "Muffin aux Myrtilles",
+          "description_en": "Fresh blueberry muffin",
+          "description_fr": "Muffin frais aux myrtilles",
+          "price": 3.50,
+          "available": true
+        },
+        {
+          "id": "p_food_bagel",
+          "name_en": "Bagel with Cream Cheese",
+          "name_fr": "Bagel avec Fromage à la Crème",
+          "description_en": "Fresh bagel with cream cheese",
+          "description_fr": "Bagel frais avec fromage à la crème",
+          "price": 4.25,
+          "available": true
+        },
+        {
+          "id": "p_food_cookie",
+          "name_en": "Cookie",
+          "name_fr": "Biscuit",
+          "description_en": "Chocolate chip cookie",
+          "description_fr": "Biscuit aux pépites de chocolat",
+          "price": 2.50,
+          "available": true
+        }
+      ]
+    }
+  ]
+}

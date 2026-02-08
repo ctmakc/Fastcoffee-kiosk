@@ -7,9 +7,53 @@
 }
 
 .detail-header {
+  display: flex;
+  align-items: center;
+  gap: 15px;
   padding: 20px 40px;
   background-color: white;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.btn-back {
+  padding: 16px 24px;
+  font-size: 20px;
+  background-color: var(--primary-color);
+  color: white;
+  border-radius: var(--border-radius);
+  min-height: var(--tap-target-size);
+  transition: background-color 0.2s;
+}
+
+.btn-back:active {
+  background-color: #6B3410;
+}
+
+.btn-refresh {
+  padding: 16px 24px;
+  font-size: 28px;
+  background-color: #4CAF50;
+  color: white;
+  border-radius: var(--border-radius);
+  min-height: var(--tap-target-size);
+  min-width: var(--tap-target-size);
+  margin-left: auto;
+  transition: background-color 0.2s, transform 0.3s;
+}
+
+.btn-refresh:active {
+  background-color: #45a049;
+  transform: scale(0.95);
+}
+
+.btn-refresh:disabled {
+  opacity: 0.6;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
 }
 
 .detail-content {
@@ -57,4 +101,9 @@
 
 .btn-add-to-cart:active {
   background-color: #6B3410;
+}
+
+.btn-add-to-cart:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
 }
